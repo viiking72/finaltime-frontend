@@ -9,7 +9,7 @@ const Signup = () => {
     async function submit(e){
         e.preventDefault();
         try{
-            await axios.post("http://localhost:3001/signup",{email})
+            await axios.post("https://finaltime.onrender.com/signup",{email})
             .then(res=>{
                 if(res.data=="exist"){
                     alert("Aap pehle hi dosto ke list me shaamil hai, aap bas login kare")
