@@ -1,8 +1,6 @@
-# React + Vite
+# Deployed Project Link
+https://finaltime-frontend.onrender.com
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Description( A Login Signup Application)
+First deployed project of mine, a practice project made with the intention of learning the concepts of how the frontend and backend are connected in a complete mern stack project.
+Using cors for resource sharing and axios for posting data to backend, login and signup not using any password verification, just verifying that the entered data is already present in the database or not.
